@@ -15,7 +15,7 @@ export default function Content() {
   
   return (
     <div className=' w-full pl-6 pt-10 flex justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-orange-400 scrollbar-track-zinc-800'>
-      <div>
+      <div className='p-5'>
         <div className='hidden justify-between mx-4 sm:flex'>
           <div>
             {profileOpen ? (
@@ -48,7 +48,7 @@ export default function Content() {
 
         <h1 className='text-4xl text-center animate-slide-Y'>ajk portfolio</h1>
 
-        <div className='max-w-[700px] pt-20 w-full p-5'>
+        <div className='max-w-[700px] pt-20 w-full'>
           <h2 className='text-2xl mb-6 animate-slide-Y'>sobre</h2>
           <p className='animate-slide-Y'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aliquam quaerat dicta veniam ipsam repudiandae deserunt accusantium quibusdam, sunt repellendus quasi vero molestiae, enim eum amet blanditiis quia eaque eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus commodi aperiam amet nostrum voluptatum optio natus sunt rem nisi ab perferendis alias illo quos, laborum harum corrupti consequatur aspernatur?</p>
         </div>
@@ -65,7 +65,7 @@ export default function Content() {
       </div>
       
       {menuOpen && (
-          <aside className='bg-orange-600 h-screen w-[60px] text-white flex justify-center items-center overflow-hidden animate-slide-X transition-all z-40'>
+          <aside className='bg-orange-600 h-[1140px] w-[60px] text-white flex justify-center items-center overflow-hidden animate-slide-X transition-all z-40'>
             <ul className='flex flex-col justify-center items-center gap-4 font-sans text-xl w-full'>
               <a href="https://github.com/osvaldocordeiroandre" target='_blank'>
                 <li className='hover:bg-orange-400 w-full text-center cursor-pointer p-4 '><FaGithub size={30} /></li>
