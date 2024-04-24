@@ -16,7 +16,7 @@ export default function Content() {
   return (
     <div className=' w-full pl-6 pt-10 flex justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-orange-400 scrollbar-track-zinc-800'>
       <div className='p-5'>
-        <div className='hidden justify-between mx-4 sm:flex'>
+        <div className='hidden justify-between mx-1 sm:flex'>
           <div>
             {profileOpen ? (
               <IoMdClose onClick={() => setProfileOpen(false)} />
@@ -67,7 +67,7 @@ export default function Content() {
       {menuOpen && (
         <aside className='bg-orange-600 h-screen w-[60px] text-white flex justify-center items-center overflow-hidden animate-slide-X fixed right-0'>
           <div className='relative'>
-            <FaArrowRight className='fixed right-5 top-16' onClick={() => setMenuOpen(false)}/>
+            <FaArrowRight className='fixed right-5 top-16 animate-slide-Y' onClick={() => setMenuOpen(false)}/>
             <ul className='flex flex-col justify-center items-center gap-4 font-sans text-xl w-full'>
               <a href="https://github.com/osvaldocordeiroandre" target='_blank'>
                 <li className='hover:bg-orange-400 w-full text-center cursor-pointer p-4 '><FaGithub size={30} /></li>
