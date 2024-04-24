@@ -3,7 +3,7 @@ import ImageSkelet from './ImageSkelet'
 
 export default function HeaderLeft() {
     return (
-        <header className=' h-screen w-[300px] flex flex-col items-center justify-between border-l-8 border-orange-600'>
+        <header className=' h-screen w-[300px] flex flex-col items-center justify-between border-l-8 border-orange-600 sm:hidden'>
             <div className='pt-10'>
                 <ImageSkelet hash={'LqONB[%Mof%M~qIUofRjof-;t7IU'} src={'https://i.ibb.co/ZgRp7Vy/4ae07d6ffec77bcfba4badb12d3ee5da.jpg'} />
                 <div className='flex justify-center pt-4'>

@@ -6,7 +6,7 @@ import { TbWorldShare } from "react-icons/tb";
 
 export default function AsideRight() {
     return (
-        <aside className='bg-orange-600 h-screen w-[60px] text-white flex justify-center items-center overflow-hidden'>
+        <aside className='bg-orange-600 h-screen w-[60px] text-white flex justify-center items-center overflow-hidden sm:absolute right-0 sm:hidden'>
             <ul className='flex flex-col justify-center items-center gap-4 font-sans text-xl w-full'>
                 <a href="https://github.com/osvaldocordeiroandre" target='_blank'>
                     <li className='hover:bg-orange-400 w-full text-center cursor-pointer p-4 '><FaGithub size={30} /></li>
