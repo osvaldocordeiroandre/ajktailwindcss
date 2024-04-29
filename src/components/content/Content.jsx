@@ -14,7 +14,7 @@ export default function Content() {
   const [profileOpen, setProfileOpen] = useState(false)
 
   return (
-    <div className=' w-full pl-6 pt-10 flex justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-orange-400 scrollbar-track-zinc-800'>
+    <div className=' w-full pl-6 pt-10 flex justify-center overflow-y-scroll'>
       <div className='p-5'>
         <div className='hidden justify-between mx-1 sm:flex'>
           <div>
